@@ -1,0 +1,12 @@
+:root{
+    --guinda: rgb(105, 28, 50);
+    --verde: rgb(67, 105, 91);
+    --grayio: rgb(99, 102, 106);
+    --gris-obscuro: rgb(99, 101, 105);
+    --gris-claro: rgb(167, 168, 169);
+    --beige: rgb(214, 209, 169);
+    --verde-claro: rgb(194, 186, 152);
+    --gumela: rgb(168, 18, 62)
+    --fuente: 'Montserrat', sans-serif;
+    --bg-light: #f8f9fa;
+}
