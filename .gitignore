@@ -141,3 +141,88 @@ writable/*
 !writable/.gitignore   # Si quieres mantener el .gitignore dentro de writable
 
 # Ignorar sesión, logs y debugbar (ya está dentro de writable/*)
+
+
+# Para no subir archivos de sesión, logs y debugbar, ya están incluidos en la regla `writable/*`, por lo que no es necesario listarlos individualmente. Sin embargo, si deseas asegurarte de que se ignoren específicamente, puedes mantener las siguientes líneas, vendor y public
+
+
+############################
+# CodeIgniter 4
+############################
+
+/vendor/
+/node_modules/
+
+/public/uploads/
+/public/build/
+
+/writable/*
+!/writable/.gitkeep
+
+############################
+# Entorno (MUY IMPORTANTE)
+############################
+
+.env
+.env.*
+*.env
+
+############################
+# Logs y cache
+############################
+
+*.log
+/logs/
+/cache/
+/session/
+
+############################
+# Base de datos / backups
+############################
+
+*.sql
+*.bak
+*.dump
+
+############################
+# Composer
+############################
+
+composer.lock
+
+############################
+# IDE
+############################
+
+.vscode/
+.idea/
+
+############################
+# Sistema
+############################
+
+.DS_Store
+Thumbs.db
+
+############################
+# Archivos sensibles
+############################
+
+*.pem
+*.key
+*.crt
+
+############################
+# Docker opcional
+############################
+
+docker-compose.override.yml
+
+############################
+# Temporales
+############################
+
+*.tmp
+*.temp
+*.swp
+:
