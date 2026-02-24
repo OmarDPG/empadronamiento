@@ -34,7 +34,7 @@
             </div>
             <div class="col-md-6">
                 <label class="form-label">Entidad</label>
-                <input readonly type="text" class="form-control" value="<?= $usuario['nombre_entidad'] ?>">
+                <input readonly type="text" class="form-control text-uppercase" value="<?= $usuario['nombre_entidad'] ?>">
             </div>
             <div class="col-md-6">
                 <label class="form-label">Calle</label>

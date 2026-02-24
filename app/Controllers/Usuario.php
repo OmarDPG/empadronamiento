@@ -146,10 +146,9 @@ class Usuario extends BaseController
                 ]
             ],
             'edad' => [
-                'rules' => 'required|numeric|',
+                'rules' => 'required|regex_match[/^\d{1,2}\s(AÑO|AÑOS|MES|MESES)(\s\d{1,2}\s(MES|MESES))?$/]',
                 'errors' => [
-                    'required' => 'El campo {field} es obligatorio',
-                    'numeric' => 'Ingrese una edad valida'
+                    'regex_match' => 'Formato inválido. Ej: 12 AÑOS 6 MESES'
                 ]
             ],
             'raza' => [

@@ -24,8 +24,8 @@ $session = session();
                     </div>
 
                     <div class="col-md-6">
-                        <label for="edad" class="form-label">Edad (Años)</label>
-                        <input type="number" class="form-control" id="edad" name="edad" placeholder="Ej. 3" value="<?= set_value('edad') ?>" min="0" max="25" oninput="this.value = this.value.slice(0, 2);">
+                        <label for="edad" class="form-label">Edad (Meses / Años)</label>
+                        <input type="text" class="form-control" id="edad" name="edad" placeholder="Ej. 5 MESES, 1 AÑO, " value="<?= set_value('edad') ?>" minlength="0" maxlength="16" oninput="this.value = this.value.toUpperCase()">
                     </div>
 
                     <div class="col-md-6">
@@ -46,8 +46,8 @@ $session = session();
                         <label for="especie" class="form-label">Especie</label>
                         <select name="especie" id="especie" class="form-select" required>
                             <option value="">Selecciona una opción</option>
-                            <option value="PERRO">PERRO</option>
-                            <option value="GATO">GATO</option>
+                            <option value="CANINO">CANINO</option>
+                            <option value="FELINO">FELINO</option>
                         </select>
                     </div>
 

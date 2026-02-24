@@ -42,7 +42,7 @@ foreach ($resultados as $dato) { ?>
                             </div>
                             <div class="col-12 col-sm-5">
                                 <label for="nombre_entidad">Entidad</label>
-                                <input readonly type="text" class="form-control" id="nombre_entidad" name="nombre_entidad" placeholder="Ingresa direccion" value="<?= $dato->nombre_entidad; ?>" required>
+                                <input readonly type="text" class="form-control text-uppercase" id="nombre_entidad" name="nombre_entidad" placeholder="Ingresa direccion" value="<?= $dato->nombre_entidad; ?>" required>
                             </div>
                         </div>
                     </div>

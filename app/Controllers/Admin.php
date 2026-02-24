@@ -207,27 +207,27 @@ class Admin extends BaseController
                     'required' => 'El campo {field} es obligatorio',
                 ]
             ]
-                ];
-            $this->reglasUpdatePassword = [
-                'password' => [
-                    'rules' => 'required|min_length[8]|alpha_dash',
-                    'errors' => [
-                        'required' => 'El campo {field} es obligatorio',
-                        'min_length' => 'La contraseña debe de tener al menos 8 caracteres',
-                        'alpha_dash' => 'La contraseña debe de contener mayusculas, numeros y un caracter especial'
-                    ]
-                ],
-                'confpassword' => [
-                    'rules' => 'required|min_length[8]|alpha_dash|matches[password]',
-                    'errors' => [
-                        'required' => 'El campo {field} es obligatorio',
-                        'min_length' => 'La contraseña debe de tener al menos 8 caracteres',
-                        'alpha_dash' => 'La contraseña debe de contener mayusculas, numeros y un caracter especial',
-                        'matches' => 'Las contraseñas no coinciden'
-                    ]
+        ];
+        $this->reglasUpdatePassword = [
+            'password' => [
+                'rules' => 'required|min_length[8]|alpha_dash',
+                'errors' => [
+                    'required' => 'El campo {field} es obligatorio',
+                    'min_length' => 'La contraseña debe de tener al menos 8 caracteres',
+                    'alpha_dash' => 'La contraseña debe de contener mayusculas, numeros y un caracter especial'
                 ]
-                    ];
-            /*$this -> reglasActualizarCertificado = [
+            ],
+            'confpassword' => [
+                'rules' => 'required|min_length[8]|alpha_dash|matches[password]',
+                'errors' => [
+                    'required' => 'El campo {field} es obligatorio',
+                    'min_length' => 'La contraseña debe de tener al menos 8 caracteres',
+                    'alpha_dash' => 'La contraseña debe de contener mayusculas, numeros y un caracter especial',
+                    'matches' => 'Las contraseñas no coinciden'
+                ]
+            ]
+        ];
+        /*$this -> reglasActualizarCertificado = [
                 'nombre' => [
                     'rules' => 'alpha',
                     'errors' => [
@@ -967,6 +967,10 @@ class Admin extends BaseController
         }
     }
 
+    function textUppercase($texto)
+    {
+        return utf8_decode(mb_strtoupper($texto, 'UTF-8'));
+    }
 
     public function generarCertificado($id_certificado, $activo = 1)
     {
@@ -1033,20 +1037,16 @@ class Admin extends BaseController
             // Imagen mascota
             // $pdf->Image($fotografia, 26, 85, 30, 30);
 
-	   $relativePath = str_replace(base_url(), '', $fotografia);
-	   $localPath = FCPATH . $relativePath;
+            $relativePath = str_replace(base_url(), '', $fotografia);
+            $localPath = FCPATH . $relativePath;
 
-	   if (file_exists($localPath)) {
-	    $pdf->Image($localPath, 26, 85, 30, 30);
-	   } else {
-           // Si no existe, mostrar un mensaje en el PDF o dejar espacio vacío
-    	   $pdf->SetXY(26, 85);
-	   $pdf->Cell(30, 30, 'Sin imagen', 1, 0, 'C');
-	   }
-
-
-
-
+            if (file_exists($localPath)) {
+                $pdf->Image($localPath, 26, 85, 30, 30);
+            } else {
+                // Si no existe, mostrar un mensaje en el PDF o dejar espacio vacío
+                $pdf->SetXY(26, 85);
+                $pdf->Cell(30, 30, 'Sin imagen', 1, 0, 'C');
+            }
             // Nombre Mascota
             $pdf->SetFont('Arial', 'B', 14);
             $pdf->SetXY(88, 81);
@@ -1059,10 +1059,10 @@ class Admin extends BaseController
 
             // Edad, especie, sexo
             $pdf->SetFont('Arial', '', 12);
-            $edadNum = (int) $edad; // convierte el varchar a número entero
-            $unidad = ($edadNum === 1) ? 'Año' : 'Años';
+            // $edadNum = (int) $edad; // convierte el varchar a número entero
+            // $unidad = ($edadNum === 1) ? 'Año' : 'Años';
             $pdf->SetXY(83, 113.2);
-            $pdf->Cell(60, 6, utf8_decode($edad . ' ' . $unidad), 0, 0, 'L');
+            $pdf->Cell(60, 6, utf8_decode($edad), 0, 0, 'L');
             $pdf->SetXY(141, 113.2);
             $pdf->Cell(60, 6, utf8_decode($especie), 0, 0, 'L');
             $pdf->SetXY(190, 113.2);
@@ -1091,7 +1091,7 @@ class Admin extends BaseController
             // // Dirección
             $direccion = $calle . ' # ' . $numero . ' ' . $colonia . ' CP ' . $cp . ' ' . $nombreEntidad . ' Puebla';
             $pdf->SetXY(43, 196.5);
-            $pdf->MultiCell(140, 5, utf8_decode($direccion), 0, 'L');
+            $pdf->MultiCell(140, 5, utf8_decode($this->textUppercase($direccion)), 0, 'L');
 
             // Teléfono y correo
             $pdf->SetXY(40, 208.5);
@@ -1258,22 +1258,17 @@ En Puebla a $soloFecha a las $soloHora.";
             $pdf->SetTextColor(0, 0, 0);
             //$pdf->Image($fotografia, 11, 7, 15, 15);
 
-	    $relativePath = str_replace(base_url(), '', $fotografia);
- 	    $localPath = FCPATH . $relativePath;
+            $relativePath = str_replace(base_url(), '', $fotografia);
+            $localPath = FCPATH . $relativePath;
 
-	    if (file_exists($localPath)) {
-	    // Cargar imagen desde disco
-		   $pdf->Image($localPath, 11, 7, 15, 15);
-	    } else {
-    	    // Si no existe, mostrar un mensaje en el PDF o dejar espacio vacío
-            $pdf->SetXY(11, 7);
-    	    $pdf->Cell(15, 15, 'Sin imagen', 1, 0, 'C');
-	    }
-
-
-
-
-
+            if (file_exists($localPath)) {
+                // Cargar imagen desde disco
+                $pdf->Image($localPath, 11, 7, 15, 15);
+            } else {
+                // Si no existe, mostrar un mensaje en el PDF o dejar espacio vacío
+                $pdf->SetXY(11, 7);
+                $pdf->Cell(15, 15, 'Sin imagen', 1, 0, 'C');
+            }
 
             $pdf->SetXY(38, 17);
             $pdf->SetFont('Arial', 'B', 7);
@@ -1283,8 +1278,8 @@ En Puebla a $soloFecha a las $soloHora.";
             $pdf->SetXY(35, 20.5);
             $pdf->Cell(0, 4, utf8_decode($folio), 0);
 
-            $textoEdad = $edad == 1 ? "$edad año" : "$edad años";
-            $pdf->SetXY(13.5, 27);
+            $textoEdad = $edad;
+            $pdf->SetXY(13, 27);
             $pdf->Cell(0, 4, utf8_decode($textoEdad), 0);
 
 
@@ -1344,7 +1339,7 @@ En Puebla a $soloFecha a las $soloHora.";
             $pdf->SetXY(18, $posiciones['responsable']);
             $pdf->Cell(0, 4, utf8_decode($nombreUsuario), 0);
 
-            $direccion = "$calle $numero, $colonia, CP $cp, $nombreEntidad";
+            $direccion = $this->textUppercase("$calle $numero, $colonia, CP $cp, $nombreEntidad");
             $direccionLineas = $this->dividirTextoCaracteristicas($direccion, 45);
 
             for ($i = 0; $i < min(count($direccionLineas), 2); $i++) {
@@ -1471,111 +1466,152 @@ En Puebla a $soloFecha a las $soloHora.";
     }
 
 
-public function exportarExcelCertificados($activo = 1)
-{
-    if (!isset($this->session->id_adm)) {
-        return redirect()->to(base_url() . 'admin');
-    }
+    public function exportarExcelCertificados($activo = 1)
+    {
+        if (!isset($this->session->id_adm)) {
+            return redirect()->to(base_url() . 'admin');
+        }
 
-    $query = $this->certificado->db->table('certificados')
-        ->select('certificados.folio, certificados.fecha_alta, certificados.id_certificado, certificados.solicitud, certificados.curp_mascota')
-        ->select('usuarios.id_usuario, usuarios.nombre AS usuario_nombre, usuarios.nombre_entidad')
-        ->select('mascotas.nombre, mascotas.edad, mascotas.raza, mascotas.id_mascota, mascotas.especie, mascotas.esterilizado, mascotas.sexo, mascotas.vacunado')
-        ->join('usuarios', 'certificados.id_usuario = usuarios.id_usuario', 'left')
-        ->join('mascotas', 'certificados.id_mascota = mascotas.id_mascota', 'left')
-        ->where('certificados.activo', $activo)
-        ->get();
+        $query = $this->certificado->db->table('certificados')
+            ->select('certificados.folio, certificados.fecha_alta, certificados.id_certificado, certificados.solicitud, certificados.curp_mascota')
+            ->select('usuarios.id_usuario, usuarios.nombre AS usuario_nombre, usuarios.nombre_entidad, usuarios.calle, usuarios.colonia, usuarios.numero, usuarios.cp, usuarios.cve_entidad, usuarios.telefono, usuarios.correo')
+            ->select('mascotas.nombre, mascotas.edad, mascotas.raza, mascotas.id_mascota, mascotas.especie, mascotas.esterilizado, mascotas.sexo, mascotas.vacunado')
+            ->select("CONCAT(usuarios.calle, ' ', usuarios.numero, ', Col. ', usuarios.colonia, ', C.P. ', usuarios.cp, ', ', usuarios.nombre_entidad) AS direccion", false)
+            ->join('usuarios', 'certificados.id_usuario = usuarios.id_usuario', 'left')
+            ->join('mascotas', 'certificados.id_mascota = mascotas.id_mascota', 'left')
+            ->where('certificados.activo', $activo)
+            ->get();
 
-    $resultados = $query->getResultArray();
 
-    $spreadsheet = new Spreadsheet();
-    $sheet = $spreadsheet->getActiveSheet();
+        $resultados = $query->getResultArray();
 
-    // Encabezados
-    $encabezados = [
-        'Folio', 'Fecha Alta', 'Solicitud', 'CURP Mascota',
-        'Nombre Usuario', 'Entidad',
-        'Nombre Mascota', 'Edad', 'Raza',
-        'Especie', 'Esterilizado', 'Sexo', 'Vacunado'
-    ];
+        $spreadsheet = new Spreadsheet();
+        $sheet = $spreadsheet->getActiveSheet();
 
-    // Escribir encabezados
-    $sheet->fromArray($encabezados, NULL, 'A1');
+        // Encabezados
+        $encabezados = [
+            'Nombre del Propietario',
+            'Dirección',
+            'Número telefónico',
+            'Folio',
+            'Fecha Alta',
+            'Solicitud',
+            'CURP Mascota',
+            'Entidad',
+            'Nombre Mascota',
+            'Edad',
+            'Raza',
+            'Especie',
+            'Esterilizado',
+            'Sexo',
+            'Vacunado'
+        ];
 
-    // Aplicar estilo a los encabezados
-    $encabezadoStyle = [
-        'font' => [
-            'bold' => true,
-            'color' => ['rgb' => 'FFFFFF'],
-        ],
-        'fill' => [
-            'fillType' => Fill::FILL_SOLID,
-            'startColor' => ['rgb' => '28A745'], // verde
-        ],
-        'alignment' => [
-            'horizontal' => Alignment::HORIZONTAL_CENTER,
-        ],
-        'borders' => [
-            'allBorders' => [
-                'borderStyle' => Border::BORDER_THIN,
+        // Escribir encabezados
+        $sheet->fromArray($encabezados, NULL, 'A1');
+
+        // Aplicar estilo a los encabezados
+        $encabezadoStyle = [
+            'font' => [
+                'bold' => true,
+                'color' => ['rgb' => 'FFFFFF'],
             ],
-        ],
-    ];
-    $columnCount = count($encabezados);
-    $endColumn = \PhpOffice\PhpSpreadsheet\Cell\Coordinate::stringFromColumnIndex($columnCount);
-    $sheet->getStyle("A1:{$endColumn}1")->applyFromArray($encabezadoStyle);
+            'fill' => [
+                'fillType' => Fill::FILL_SOLID,
+                'startColor' => ['rgb' => '28A745'], // verde
+            ],
+            'alignment' => [
+                'horizontal' => Alignment::HORIZONTAL_CENTER,
+            ],
+            'borders' => [
+                'allBorders' => [
+                    'borderStyle' => Border::BORDER_THIN,
+                ],
+            ],
+        ];
+        $columnCount = count($encabezados);
+        $endColumn = \PhpOffice\PhpSpreadsheet\Cell\Coordinate::stringFromColumnIndex($columnCount);
+        $sheet->getStyle("A1:{$endColumn}1")->applyFromArray($encabezadoStyle);
 
-    // Escribir datos
-    $fila = 2;
-    foreach ($resultados as $row) {
-        $sheet->setCellValue("A$fila", $row['folio']);
-        $sheet->setCellValue("B$fila", $row['fecha_alta']);
-        $sheet->setCellValue("C$fila", $row['solicitud']);
-        $sheet->setCellValue("D$fila", $row['curp_mascota']);
-        $sheet->setCellValue("E$fila", $row['usuario_nombre']);
-        $sheet->setCellValue("F$fila", $row['nombre_entidad']);
-        $sheet->setCellValue("G$fila", $row['nombre']);
-        $sheet->setCellValue("H$fila", $row['edad']);
-        $sheet->setCellValue("I$fila", $row['raza']);
-        $sheet->setCellValue("J$fila", $row['especie']);
-        $sheet->setCellValue("K$fila", $row['esterilizado'] ? 'Sí' : 'No');
-        $sheet->setCellValue("L$fila", $row['sexo']);
-        $sheet->setCellValue("M$fila", $row['vacunado'] ? 'Sí' : 'No');
-        $fila++;
+        // Escribir datos
+        $fila = 2;
+        foreach ($resultados as $row) {
+            
+            $sheet->setCellValue("A$fila", $row['usuario_nombre']);
+            $sheet->setCellValue("B$fila", $row['direccion']);
+            $sheet->setCellValue("C$fila", $row['telefono']);
+            $sheet->setCellValue("D$fila", $row['folio']);
+            $sheet->setCellValue("E$fila", $row['fecha_alta']);
+            $sheet->setCellValue("F$fila", $row['solicitud']);
+            $sheet->setCellValue("G$fila", $row['curp_mascota']);
+            $sheet->setCellValue("H$fila", $row['nombre_entidad']);
+            $sheet->setCellValue("I$fila", $row['nombre']);
+            $sheet->setCellValue("J$fila", $row['edad']);
+            $sheet->setCellValue("K$fila", $row['raza']);
+            $sheet->setCellValue("L$fila", $row['especie']);
+            $sheet->setCellValue("M$fila", $row['esterilizado'] ? 'Sí' : 'No');
+            $sheet->setCellValue("N$fila", $row['sexo']);
+            $sheet->setCellValue("O$fila", $row['vacunado'] ? 'Sí' : 'No');
+            $fila++;
+        }
+
+        // Autoajustar ancho de columnas
+        for ($col = 'A'; $col <= $endColumn; $col++) {
+            $sheet->getColumnDimension($col)->setAutoSize(true);
+        }
+
+        // Bordes para toda la tabla
+        $sheet->getStyle("A1:{$endColumn}" . ($fila - 1))->applyFromArray([
+            'borders' => [
+                'allBorders' => ['borderStyle' => Border::BORDER_THIN],
+            ]
+        ]);
+
+        // Agregar filtro en la fila 1
+        $sheet->setAutoFilter("A1:{$endColumn}1");
+
+        // Descargar el archivo
+        $writer = new Xlsx($spreadsheet);
+        $filename = 'certificados_' . date('Ymd_His') . '.xlsx';
+
+        return $this->response
+            ->setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
+            ->setHeader('Content-Disposition', "attachment;filename=\"$filename\"")
+            ->setHeader('Cache-Control', 'max-age=0')
+            ->setBody($this->streamExcel($writer));
     }
 
-    // Autoajustar ancho de columnas
-    for ($col = 'A'; $col <= $endColumn; $col++) {
-        $sheet->getColumnDimension($col)->setAutoSize(true);
+    private function streamExcel($writer)
+    {
+        ob_start();
+        $writer->save('php://output');
+        return ob_get_clean();
     }
 
-    // Bordes para toda la tabla
-    $sheet->getStyle("A1:{$endColumn}" . ($fila - 1))->applyFromArray([
-        'borders' => [
-            'allBorders' => ['borderStyle' => Border::BORDER_THIN],
-        ]
-    ]);
+    public function eliminarSolicitud($id_temp)
+    {
+        if (!isset($this->session->id_adm)) {
+            return redirect()->to(base_url() . 'admin');
+        }
+        $temporal = $this->temporal->find($id_temp);
+        if ($temporal) {
+            $this->temporal->delete($id_temp);
+            $this->notificaciones->where('id_mascota', $temporal['id_mascota'])->delete();
+        }
 
-    // Agregar filtro en la fila 1
-    $sheet->setAutoFilter("A1:{$endColumn}1");
+        return redirect()->to(base_url() . 'admin/certificadosPendientes');
+    }
+    public function eliminarSolicitudUsuario($id_usuario)
+    {
+        if (!isset($this->session->id_adm)) {
+            return redirect()->to(base_url() . 'admin');
+        }
+        $usuario = $this->usuario->find($id_usuario);
+        if ($usuario) {
+            $this->usuario->delete($id_usuario);
+            $this->notificaciones->where('id_usuario', $id_usuario)->delete();
+        }
 
-    // Descargar el archivo
-    $writer = new Xlsx($spreadsheet);
-    $filename = 'certificados_' . date('Ymd_His') . '.xlsx';
-
-    return $this->response
-        ->setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
-        ->setHeader('Content-Disposition', "attachment;filename=\"$filename\"")
-        ->setHeader('Cache-Control', 'max-age=0')
-        ->setBody($this->streamExcel($writer));
-}
-
-private function streamExcel($writer)
-{
-    ob_start();
-    $writer->save('php://output');
-    return ob_get_clean();
-}
-
-
+        return redirect()->to(base_url() . 'admin/usuariosPendientes');
+    }
 }
