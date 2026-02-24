@@ -136,7 +136,7 @@
     });
 </script>
 
-<script>
+<!-- <script>
     document.addEventListener('DOMContentLoaded', function() {
         const numeroInput = document.getElementById('numero');
         const form = document.getElementById('wizardForm');
@@ -159,7 +159,7 @@
             this.classList.remove('is-invalid');
         });
     });
-</script>
+</script> -->
 
 
 <!-- DataTables -->
@@ -211,6 +211,22 @@
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const form = document.getElementById('wizardForm');
+        if (!form) return;
+
+        const submitBtn = form.querySelector('button[type="submit"]');
+
+        form.addEventListener('submit', function(e) {
+            if (!form.checkValidity()) {
+                return;
+            }
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-1"></i> Enviando...';
+        });
+    });
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('form-editUs');
         if (!form) return;
 
         const submitBtn = form.querySelector('button[type="submit"]');

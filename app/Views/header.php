@@ -22,20 +22,24 @@
         body {
             font-family: 'Montserrat', sans-serif;
         }
+
         .banner-img {
             width: 100%;
             height: auto;
             object-fit: cover;
             max-height: 22vh;
         }
+
         .nav-link {
             color: rgb(67, 105, 91);
         }
+
         .nav-link.nav-active,
         .nav-link:hover {
             color: #009900 !important;
             border-bottom: 2px solid #009900;
         }
+
         .navbar-toggler-icon {
             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
         }
@@ -65,6 +69,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-uppercase fw-semibold" href="<?php echo base_url(); ?>servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase fw-semibold" href="<?php echo base_url(); ?>adopcion">Mascotas para adopción</a>
                     </li>
                 </ul>
                 <div class="d-flex gap-2">

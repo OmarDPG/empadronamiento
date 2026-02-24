@@ -6,8 +6,8 @@ use CodeIgniter\Config\BaseConfig;
 
 class Email extends BaseConfig
 {
-    // public string $fromEmail  = 'omar.ch0896@gmail.com';
-    public string $fromEmail  = 'padrones.iba@puebla.gob.mx';
+    public string $fromEmail  = 'omar.ch0896@gmail.com';
+    // public string $fromEmail  = 'padrones.iba@puebla.gob.mx';
     public string $fromName   = 'Instituto del Bienestar Animal';
     public string $recipients = '';
 
@@ -34,15 +34,14 @@ class Email extends BaseConfig
     /**
      * SMTP Username
      */
-    // public string $SMTPUser = 'omar.ch0896@gmail.com';
-    public string $SMTPUser = 'padrones.iba@puebla.gob.mx';
+    public string $SMTPUser = 'omar.ch0896@gmail.com';
+    // public string $SMTPUser = 'padrones.iba@puebla.gob.mx';
 
     /**
      * SMTP Password
      */
-    // public string $SMTPPass = 'nblmaklfmgwmzdzb';
-    // public string $SMTPPass = 'hixvpdvywyjwjykb'; IBA1
-    public string $SMTPPass = 'iogkbtodonuoykdd'; //IBA2
+    public string $SMTPPass = 'nblmaklfmgwmzdzb';
+    // public string $SMTPPass = 'iogkbtodonuoykdd'; //IBA2
 
     /**
      * SMTP Port

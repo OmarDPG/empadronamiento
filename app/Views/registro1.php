@@ -1,6 +1,18 @@
 <main class="container my-5 flex-grow-1">
   <div class="bg-light p-4 rounded shadow">
     <h3 class="text-center mb-4 fw-bold">Registro</h3>
+    <!-- Validación de errores -->
+    <?php if (isset($validation)) : ?>
+      <div class="alert alert-danger" role="alert">
+        <?= $validation->listErrors(); ?>
+      </div>
+    <?php endif; ?>
+
+    <?php if (!empty($mensaje)) : ?>
+      <div class="alert alert-warning" role="alert">
+        <?= esc($mensaje); ?>
+      </div>
+    <?php endif; ?>
     <!-- Formulario oculto -->
     <form id="wizardForm" class="d-none p-4 bg-white border rounded shadow-sm" method="post" action="<?= base_url('registro/insertar') ?>" enctype="multipart/form-data" autocomplete="off">
 
@@ -55,7 +67,7 @@
         <div class="row g-4">
           <div class="col-md-6">
             <label for="nombre_entidad" class="form-label">Entidad</label>
-            <select class="form-select" name="nombre_entidad" id="nombre_entidad" required>
+            <select class="form-select text-uppercase" name="nombre_entidad" id="nombre_entidad" required>
               <option selected disabled value="">Seleccione una entidad</option>
               <?php foreach ($entidades as $entidad): ?>
                 <option value="<?= $entidad['nombre_entidad']; ?>"><?= $entidad['nombre_entidad']; ?></option>
@@ -80,8 +92,10 @@
 
           <div class="col-md-6">
             <label for="numero" class="form-label">Número</label>
-            <input type="text" class="form-control form-control-lg" id="numero" name="numero"
-              placeholder="Ej. 123 o S/N" maxlength="5" value="<?= set_value('numero'); ?>" required>
+            <input type="text" class="form-control form-control-lg text-uppercase" id="numero" name="numero"
+              placeholder="Ej. 123 o 123, interior 1c" maxlength="20" value="<?= set_value('numero'); ?>"
+              oninput="this.value = this.value.toUpperCase()"
+              required>
           </div>
 
           <div class="col-md-6">
@@ -106,19 +120,19 @@
             <label for="doc_identificacion" class="form-label">INE</label>
             <input type="file" class="form-control form-control-lg" id="doc_identificacion" name="doc_identificacion"
               accept=".pdf, image/png, image/jpeg" required>
-            <div class="invalid-feedback">El archivo no debe superar los 3MB.</div>
+            <div class="invalid-feedback">El archivo no debe superar los 8MB.</div>
           </div>
           <div class="col-md-6">
             <label for="doc_curp" class="form-label">CURP</label>
             <input type="file" class="form-control form-control-lg" id="doc_curp" name="doc_curp"
               accept=".pdf, image/png, image/jpeg" required>
-            <div class="invalid-feedback">El archivo no debe superar los 3MB.</div>
+            <div class="invalid-feedback">El archivo no debe superar los 8MB.</div>
           </div>
           <div class="col-md-6">
             <label for="doc_domicilio" class="form-label">Comprobante de domicilio</label>
             <input type="file" class="form-control form-control-lg" id="doc_domicilio" name="doc_domicilio"
               accept=".pdf, image/png, image/jpeg" required>
-            <div class="invalid-feedback">El archivo no debe superar los 3MB.</div>
+            <div class="invalid-feedback">El archivo no debe superar los 8MB.</div>
           </div>
         </div>
 
@@ -217,7 +231,7 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    const maxSize = 3 * 1024 * 1024; // 3MB
+    const maxSize = 8 * 1024 * 1024; // 8MB
     const archivos = ['doc_identificacion', 'doc_curp', 'doc_domicilio'];
 
     archivos.forEach(id => {
