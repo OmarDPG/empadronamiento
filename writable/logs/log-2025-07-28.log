@@ -1,0 +1,44 @@
+CRITICAL - 2025-07-28 14:15:53 --> Undefined variable $entidades
+in APPPATH/Views/registro1.php on line 59.
+ 1 APPPATH/Views/registro1.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/bienestaranimal.puebla.gob.mx/app/Views/registro1.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Registro.php(172): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Registro->insertar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-28 14:21:57 --> Undefined variable $entidades
+in APPPATH/Views/registro1.php on line 59.
+ 1 APPPATH/Views/registro1.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/bienestaranimal.puebla.gob.mx/app/Views/registro1.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Registro.php(172): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Registro->insertar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-28 14:43:15 --> Undefined variable $entidades
+in APPPATH/Views/registro1.php on line 59.
+ 1 APPPATH/Views/registro1.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/bienestaranimal.puebla.gob.mx/app/Views/registro1.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Registro.php(172): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Registro->insertar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-28 14:43:34 --> Undefined variable $entidades
+in APPPATH/Views/registro1.php on line 59.
+ 1 APPPATH/Views/registro1.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/bienestaranimal.puebla.gob.mx/app/Views/registro1.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Registro.php(172): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Registro->insertar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

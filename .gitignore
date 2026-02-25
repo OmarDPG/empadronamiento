@@ -137,7 +137,7 @@ app/Config/Database.php
 app/Config/Email.php
 
 # # Writable
-writable/*
+# writable/*
 # !writable/.gitignore   # Si quieres mantener el .gitignore dentro de writable
 
 # # Ignorar sesión, logs y debugbar (ya está dentro de writable/*)

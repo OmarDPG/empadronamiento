@@ -1,0 +1,55 @@
+CRITICAL - 2025-06-17 10:18:46 --> Undefined array key "nombre_entidad"
+in APPPATH\Views\pasotres.php on line 73.
+ 1 APPPATH\Views\pasotres.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_entidad"', 'C:\\wamp64\\www\\empadronamiento\\app\\Views\\pasotres.php', 73)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64\\www\\empadronamiento\\app\\Views\\pasotres.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pasotres', [], true)
+ 5 APPPATH\Controllers\Registro.php(153): view('pasotres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->pasotres()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-17 10:19:10 --> Undefined array key "nombre_entidad"
+in APPPATH\Views\pasotres.php on line 73.
+ 1 APPPATH\Views\pasotres.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_entidad"', 'C:\\wamp64\\www\\empadronamiento\\app\\Views\\pasotres.php', 73)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64\\www\\empadronamiento\\app\\Views\\pasotres.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pasotres', [], true)
+ 5 APPPATH\Controllers\Registro.php(153): view('pasotres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->pasotres()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-17 10:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-17 10:19:41 --> Undefined array key "nombre_entidad"
+in APPPATH\Views\pasotres.php on line 73.
+ 1 APPPATH\Views\pasotres.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_entidad"', 'C:\\wamp64\\www\\empadronamiento\\app\\Views\\pasotres.php', 73)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64\\www\\empadronamiento\\app\\Views\\pasotres.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pasotres', [], true)
+ 5 APPPATH\Controllers\Registro.php(153): view('pasotres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->pasotres()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-17 10:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 10:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 10:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 10:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 10:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 10:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 10:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 10:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 10:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 10:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-17 10:38:36 --> Undefined array key "nombre_entidad"
+in APPPATH\Views\pasotres.php on line 73.
+ 1 APPPATH\Views\pasotres.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_entidad"', 'C:\\wamp64\\www\\empadronamiento\\app\\Views\\pasotres.php', 73)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64\\www\\empadronamiento\\app\\Views\\pasotres.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pasotres', [], true)
+ 5 APPPATH\Controllers\Registro.php(153): view('pasotres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registro->pasotres()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

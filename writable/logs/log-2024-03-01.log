@@ -1,0 +1,598 @@
+INFO - 2024-03-01 14:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 14:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 14:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 14:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 14:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 14:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 14:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-01 14:30:06 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Usuario.php on line 715.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 14:30:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\Usuario.php on line 731.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 14:30:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\Usuario.php on line 734.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 14:30:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\Usuario.php on line 736.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 14:30:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\Usuario.php on line 737.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 14:30:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\Usuario.php on line 738.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 14:30:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\Usuario.php on line 740.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 14:30:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\Usuario.php on line 741.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 14:30:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\Usuario.php on line 742.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 14:30:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\Usuario.php on line 744.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 14:30:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\Usuario.php on line 746.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 14:30:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\Usuario.php on line 749.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 14:30:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\Usuario.php on line 751.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 14:30:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\Usuario.php on line 753.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 14:30:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH\Controllers\Usuario.php on line 756.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 14:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 15:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 15:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 15:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 15:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 15:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 15:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-01 15:39:39 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'iba', 3306, '', 0)
+#1 /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/app/Controllers/Admin.php(262): CodeIgniter\BaseModel->first()
+#7 /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\Admin->validar()
+#8 /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/app/Controllers/Admin.php(262): CodeIgniter\BaseModel->first()
+#6 /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\Admin->validar()
+#7 /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol19_1/infinityfree.com/if0_35619487/empadronamientopuebla.wuaze.com/htdocs/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-01 15:39:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `usuario` = :usuario:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Admin.php(262): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin->validar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 15:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 15:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 15:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 15:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 15:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-01 15:40:39 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Controllers/Usuario.php on line 715.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:40 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 731.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:40 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 734.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:40 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 736.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:40 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 737.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:40 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 738.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:40 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 740.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:40 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 741.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:40 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 742.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:40 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 744.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:40 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 746.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:40 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 749.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:40 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 751.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:40 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 753.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:40 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 756.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 15:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 15:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-01 15:40:58 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Controllers/Usuario.php on line 715.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:58 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 731.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:58 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 734.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:58 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 736.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:58 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 737.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:58 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 738.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:58 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 740.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:58 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 741.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:58 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 742.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:58 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 744.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:58 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 746.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:58 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 749.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:58 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 751.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:58 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 753.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:40:58 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 756.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 15:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-01 15:41:09 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Controllers/Usuario.php on line 715.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 731.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 734.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 736.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 737.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 738.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 740.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 741.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 742.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 744.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 746.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 749.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 751.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 753.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 756.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 15:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 15:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-01 15:41:41 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Controllers/Usuario.php on line 715.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:41 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 731.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:41 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 734.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:41 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 736.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:41 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 737.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:41 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 738.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:41 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 740.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:41 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 741.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:41 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 742.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:41 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 744.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:41 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 746.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:41 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 749.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:41 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 751.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:41 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 753.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:41:41 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 756.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 15:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 15:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 15:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 15:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 15:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-01 15:42:06 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Controllers/Usuario.php on line 715.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 731.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 734.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 736.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 737.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 738.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 740.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 741.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 742.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 744.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 746.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 749.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 751.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 753.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:06 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 756.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 15:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-01 15:42:09 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Controllers/Usuario.php on line 715.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 731.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 734.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 736.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 737.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 738.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 740.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 741.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 742.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 744.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 746.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 749.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 751.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 753.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-01 15:42:09 --> [DEPRECATED] Function utf8_decode() is deprecated in APPPATH/Controllers/Usuario.php on line 756.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

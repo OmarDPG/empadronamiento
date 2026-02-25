@@ -1,0 +1,17 @@
+swaks --to omar.ch0896@gmail.com \
+      --from padrones.iba@puebla.gob.mx \
+      --server smtp.googlemail.com \
+      --port 587 \
+      --auth LOGIN \
+      --auth-user padrones.iba@puebla.gob.mx \
+      --auth-password "iogkbtodonuoykdd"
+
+
+swaks --to omar.ch0896@mail.com \
+      --from padrones.iba@puebla.gob.mx \
+      --server smtp.googlemail.com \
+      --port 587 \
+      --tls \
+      --auth LOGIN \
+      --auth-user padrones.iba@puebla.gob.mx \
+      --auth-password "iogkbtodonuoykdd"

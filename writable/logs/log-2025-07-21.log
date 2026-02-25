@@ -1,0 +1,80 @@
+ERROR - 2025-07-21 14:16:04 --> Error connecting to the database: mysqli_sql_exception: Permission denied in /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /var/www/bienestaranimal.puebla.gob.mx/app/Controllers/Registro.php(71): CodeIgniter\BaseModel->findAll()
+#7 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\Registro->index()
+#8 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/bienestaranimal.puebla.gob.mx/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Permission denied in /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#5 /var/www/bienestaranimal.puebla.gob.mx/app/Controllers/Registro.php(71): CodeIgniter\BaseModel->findAll()
+#6 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\Registro->index()
+#7 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/bienestaranimal.puebla.gob.mx/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-07-21 14:16:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Permission denied
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Registro.php(71): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Registro->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-07-21 14:16:20 --> Error connecting to the database: mysqli_sql_exception: Permission denied in /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /var/www/bienestaranimal.puebla.gob.mx/app/Controllers/Registro.php(71): CodeIgniter\BaseModel->findAll()
+#7 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\Registro->index()
+#8 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/bienestaranimal.puebla.gob.mx/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Permission denied in /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#5 /var/www/bienestaranimal.puebla.gob.mx/app/Controllers/Registro.php(71): CodeIgniter\BaseModel->findAll()
+#6 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\Registro->index()
+#7 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/bienestaranimal.puebla.gob.mx/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/bienestaranimal.puebla.gob.mx/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-07-21 14:16:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Permission denied
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Registro.php(71): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Registro->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

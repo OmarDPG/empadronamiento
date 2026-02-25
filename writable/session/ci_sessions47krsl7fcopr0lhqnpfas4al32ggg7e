@@ -1,0 +1,34 @@
+__ci_last_regenerate|i:1765841961;_ci_previous_url|s:88:"http://localhost/bienestaranimal.puebla.gob.mx/public/index.php/admin/verDatosUsuario/71";id_adm|s:1:"2";usuario|s:13:"administrador";nombre|s:13:"ADMINISTRADOR";apellidoP|s:13:"ADMINISTRADOR";apellidoM|s:13:"ADMINISTRADOR";expediente|s:6:"141855";activo|s:1:"1";adm|s:1:"1";fecha_ultima|s:19:"2025-11-06 11:21:48";c_acceso|s:19:"2025-12-15 17:03:04";error|s:1459:"Error enviando el correo: 220 smtp.googlemail.com ESMTP 46e09a7af769-7cadb010476sm10267650a34.0 - gsmtp
+<br><pre>hello: 250-smtp.googlemail.com at your service, [189.161.168.4]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre><pre>starttls: 220 2.0.0 Ready to start TLS
+</pre><pre>hello: 250-smtp.googlemail.com at your service, [189.161.168.4]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre>Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 46e09a7af769-7cadb010476sm10267650a34.0 - gsmtp
+<br>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Mon, 15 Dec 2025 17:03:26 -0600
+To: omar.ch0896@mail.com
+Subject: =?UTF-8?Q?Solicitud=20de=20correcci=C3=B3n=20de=20datos=20del=20usuario?=
+From: &quot;Instituto del Bienestar Animal&quot; &lt;padrones.iba@puebla.gob.mx&gt;
+Return-Path: &lt;padrones.iba@puebla.gob.mx&gt;
+Reply-To: &lt;padrones.iba@puebla.gob.mx&gt;
+User-Agent: CodeIgniter
+X-Sender: padrones.iba@puebla.gob.mx
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;694093bed495f8.05577862@puebla.gob.mx&gt;
+Mime-Version: 1.0
+
+</pre>";__ci_vars|a:1:{s:5:"error";s:3:"old";}

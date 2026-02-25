@@ -1,0 +1,150 @@
+CRITICAL - 2025-07-22 10:36:56 --> fopen(https://reep.puebla.gob.mx/img/Acuse.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+in VENDORPATH/setasign/fpdf/fpdf.php on line 1274.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 VENDORPATH/setasign/fpdf/fpdf.php(1274): fopen()
+ 3 VENDORPATH/setasign/fpdf/fpdf.php(890): FPDF->_parsepng()
+ 4 APPPATH/Controllers/Admin.php(1124): FPDF->Image()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin->generarAcuse()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-22 10:37:00 --> fopen(https://reep.puebla.gob.mx/img/Acuse.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+in VENDORPATH/setasign/fpdf/fpdf.php on line 1274.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 VENDORPATH/setasign/fpdf/fpdf.php(1274): fopen()
+ 3 VENDORPATH/setasign/fpdf/fpdf.php(890): FPDF->_parsepng()
+ 4 APPPATH/Controllers/Admin.php(1124): FPDF->Image()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin->generarAcuse()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-22 10:59:53 --> Undefined variable $entidades
+in APPPATH/Views/registro1.php on line 59.
+ 1 APPPATH/Views/registro1.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/bienestaranimal.puebla.gob.mx/app/Views/registro1.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Registro.php(174): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Registro->insertar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-22 11:00:02 --> Undefined variable $entidades
+in APPPATH/Views/registro1.php on line 59.
+ 1 APPPATH/Views/registro1.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/bienestaranimal.puebla.gob.mx/app/Views/registro1.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Registro.php(174): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Registro->insertar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-22 11:00:04 --> Undefined variable $entidades
+in APPPATH/Views/registro1.php on line 59.
+ 1 APPPATH/Views/registro1.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/bienestaranimal.puebla.gob.mx/app/Views/registro1.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Registro.php(174): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Registro->insertar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-22 11:00:06 --> Undefined variable $entidades
+in APPPATH/Views/registro1.php on line 59.
+ 1 APPPATH/Views/registro1.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/bienestaranimal.puebla.gob.mx/app/Views/registro1.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Registro.php(174): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Registro->insertar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-22 11:22:16 --> Undefined variable $entidades
+in APPPATH/Views/registro1.php on line 59.
+ 1 APPPATH/Views/registro1.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/bienestaranimal.puebla.gob.mx/app/Views/registro1.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Registro.php(174): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Registro->insertar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-22 11:25:24 --> Undefined variable $rutaDomicilio
+in APPPATH/Controllers/Registro.php on line 149.
+ 1 APPPATH/Controllers/Registro.php(149): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Registro->insertar()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-22 11:42:33 --> Undefined variable $entidades
+in APPPATH/Views/registro1.php on line 59.
+ 1 APPPATH/Views/registro1.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/bienestaranimal.puebla.gob.mx/app/Views/registro1.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Registro.php(174): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Registro->insertar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-22 11:46:56 --> fopen(https://reep.puebla.gob.mx/img/Acuse.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+in VENDORPATH/setasign/fpdf/fpdf.php on line 1274.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 VENDORPATH/setasign/fpdf/fpdf.php(1274): fopen()
+ 3 VENDORPATH/setasign/fpdf/fpdf.php(890): FPDF->_parsepng()
+ 4 APPPATH/Controllers/Admin.php(1124): FPDF->Image()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin->generarAcuse()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-22 11:47:01 --> fopen(https://reep.puebla.gob.mx/img/Acuse.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+in VENDORPATH/setasign/fpdf/fpdf.php on line 1274.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 VENDORPATH/setasign/fpdf/fpdf.php(1274): fopen()
+ 3 VENDORPATH/setasign/fpdf/fpdf.php(890): FPDF->_parsepng()
+ 4 APPPATH/Controllers/Admin.php(1124): FPDF->Image()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin->generarAcuse()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-22 12:13:23 --> Undefined variable $entidades
+in APPPATH/Views/registro1.php on line 59.
+ 1 APPPATH/Views/registro1.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/bienestaranimal.puebla.gob.mx/app/Views/registro1.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Registro.php(174): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Registro->insertar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-22 12:13:35 --> Undefined variable $entidades
+in APPPATH/Views/registro1.php on line 59.
+ 1 APPPATH/Views/registro1.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/bienestaranimal.puebla.gob.mx/app/Views/registro1.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Registro.php(174): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Registro->insertar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-22 12:53:02 --> Undefined variable $entidades
+in APPPATH/Views/registro1.php on line 59.
+ 1 APPPATH/Views/registro1.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/bienestaranimal.puebla.gob.mx/app/Views/registro1.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Registro.php(174): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Registro->insertar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

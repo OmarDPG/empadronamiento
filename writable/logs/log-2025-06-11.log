@@ -1,0 +1,50 @@
+CRITICAL - 2025-06-11 11:03:27 --> FPDF error: Not a PNG file: https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png
+in VENDORPATH/setasign/fpdf/fpdf.php on line 267.
+ 1 VENDORPATH/setasign/fpdf/fpdf.php(1286): FPDF->Error('Not a PNG file: https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png')
+ 2 VENDORPATH/setasign/fpdf/fpdf.php(1277): FPDF->_parsepngstream(resource (stream), 'https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png')
+ 3 VENDORPATH/setasign/fpdf/fpdf.php(890): FPDF->_parsepng('https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png')
+ 4 APPPATH/Controllers/Usuario.php(715): FPDF->Image('https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png', 0, 0, 215.900000000000005684341886080801486968994140625)
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('1')
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-11 11:03:37 --> FPDF error: Not a PNG file: https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png
+in VENDORPATH/setasign/fpdf/fpdf.php on line 267.
+ 1 VENDORPATH/setasign/fpdf/fpdf.php(1286): FPDF->Error('Not a PNG file: https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png')
+ 2 VENDORPATH/setasign/fpdf/fpdf.php(1277): FPDF->_parsepngstream(resource (stream), 'https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png')
+ 3 VENDORPATH/setasign/fpdf/fpdf.php(890): FPDF->_parsepng('https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png')
+ 4 APPPATH/Controllers/Usuario.php(715): FPDF->Image('https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png', 0, 0, 215.900000000000005684341886080801486968994140625)
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('1')
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-11 11:03:47 --> FPDF error: Not a PNG file: https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png
+in VENDORPATH/setasign/fpdf/fpdf.php on line 267.
+ 1 VENDORPATH/setasign/fpdf/fpdf.php(1286): FPDF->Error('Not a PNG file: https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png')
+ 2 VENDORPATH/setasign/fpdf/fpdf.php(1277): FPDF->_parsepngstream(resource (stream), 'https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png')
+ 3 VENDORPATH/setasign/fpdf/fpdf.php(890): FPDF->_parsepng('https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png')
+ 4 APPPATH/Controllers/Usuario.php(715): FPDF->Image('https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png', 0, 0, 215.900000000000005684341886080801486968994140625)
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('1')
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-11 11:03:48 --> FPDF error: Not a PNG file: https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png
+in VENDORPATH/setasign/fpdf/fpdf.php on line 267.
+ 1 VENDORPATH/setasign/fpdf/fpdf.php(1286): FPDF->Error('Not a PNG file: https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png')
+ 2 VENDORPATH/setasign/fpdf/fpdf.php(1277): FPDF->_parsepngstream(resource (stream), 'https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png')
+ 3 VENDORPATH/setasign/fpdf/fpdf.php(890): FPDF->_parsepng('https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png')
+ 4 APPPATH/Controllers/Usuario.php(715): FPDF->Image('https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png', 0, 0, 215.900000000000005684341886080801486968994140625)
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('1')
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-11 11:04:21 --> FPDF error: Not a PNG file: https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png
+in VENDORPATH/setasign/fpdf/fpdf.php on line 267.
+ 1 VENDORPATH/setasign/fpdf/fpdf.php(1286): FPDF->Error('Not a PNG file: https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png')
+ 2 VENDORPATH/setasign/fpdf/fpdf.php(1277): FPDF->_parsepngstream(resource (stream), 'https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png')
+ 3 VENDORPATH/setasign/fpdf/fpdf.php(890): FPDF->_parsepng('https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png')
+ 4 APPPATH/Controllers/Usuario.php(715): FPDF->Image('https://empadronamientosf.infinityfreeapp.com/public//img/padroneditable(11).png', 0, 0, 215.900000000000005684341886080801486968994140625)
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('2')
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

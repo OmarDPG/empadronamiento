@@ -1,0 +1,630 @@
+INFO - 2025-07-09 09:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 09:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 09:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 09:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 09:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 09:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 09:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 09:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 09:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 09:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 09:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 09:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 09:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 09:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-09 09:40:33 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.googlemail.com failed: Host desconocido.  in C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Email\Email.php:1891
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\wamp64\\www\\e...', 1891)
+#1 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Email\Email.php(1891): fsockopen('smtp.googlemail...', 587, NULL, NULL, 300)
+#2 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Email\Email.php(1799): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Email\Email.php(1684): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Email\Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\wamp64\www\empadronamiento\app\Controllers\Usuario.php(419): CodeIgniter\Email\Email->send()
+#6 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\Usuario->registrarMascota()
+#7 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#8 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\empadronamiento\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-07-09 09:40:33 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-07-09 09:40:33 --> 
+ERROR - 2025-07-09 09:40:33 --> Error al enviar correo: Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Wed, 9 Jul 2025 09:40:22 -0600
+From: &quot;Instituto del Bienestar Animal&quot; &lt;omar.ch0896@gmail.com&gt;
+Return-Path: &lt;omar.ch0896@gmail.com&gt;
+To: omar.ch0896@zmail.com
+Subject: =?UTF-8?Q?Pre=20Registro=20de=20Mascota?=
+Reply-To: &lt;omar.ch0896@gmail.com&gt;
+User-Agent: CodeIgniter
+X-Sender: omar.ch0896@gmail.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;686e8d66202f67.00467044@gmail.com&gt;
+Mime-Version: 1.0
+
+</pre>
+INFO - 2025-07-09 09:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-09 10:48:49 --> mysqli_sql_exception: Unknown column 'temporal.solicitud' in 'field list' in C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `tempora...', 0)
+#1 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tempora...')
+#2 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tempora...')
+#3 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `tempora...', Array, false)
+#4 C:\wamp64\www\empadronamiento\app\Controllers\Admin.php(563): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\Admin->certificadosPendientes()
+#6 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\empadronamiento\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-07-09 10:48:49 --> Unknown column 'temporal.solicitud' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `temporal`.`id_mascota`, `temporal`.`id_usuario`, `temporal`.`id_temp`, `temporal`.`solicitud`, `temporal`.`curp_mascota`, `usuarios`.`id_usuario`, `usuarios`.`nombre` AS `usuario_nombre`, `id_temp`, `usuarios`.`cve_entidad`, `usuarios`.`correo`, `mascotas`.`nombre`, `mascotas`.`edad`, `mascotas`.`raza`, `mascotas`.`id_mascota`
+FROM `temporal`
+LEFT JOIN `usuarios` ON `temporal`.`id_usuario` = `usuarios`.`id_usuario`
+LEFT JOIN `mascotas` ON `temporal`.`id_mascota` = `mascotas`.`id_mascota`
+WHERE `temporal`.`activo` = :temporal.activo:', [...], false)
+ 2 APPPATH\Controllers\Admin.php(563): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->certificadosPendientes()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-09 10:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-09 10:49:41 --> mysqli_sql_exception: Unknown column 'temporal.solicitud' in 'field list' in C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `tempora...', 0)
+#1 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tempora...')
+#2 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tempora...')
+#3 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `tempora...', Array, false)
+#4 C:\wamp64\www\empadronamiento\app\Controllers\Admin.php(563): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\Admin->certificadosPendientes()
+#6 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\empadronamiento\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-07-09 10:49:41 --> Unknown column 'temporal.solicitud' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `temporal`.`id_mascota`, `temporal`.`id_usuario`, `temporal`.`id_temp`, `temporal`.`solicitud`, `temporal`.`curp_mascota`, `usuarios`.`id_usuario`, `usuarios`.`nombre` AS `usuario_nombre`, `id_temp`, `usuarios`.`cve_entidad`, `usuarios`.`correo`, `mascotas`.`nombre`, `mascotas`.`edad`, `mascotas`.`raza`, `mascotas`.`id_mascota`
+FROM `temporal`
+LEFT JOIN `usuarios` ON `temporal`.`id_usuario` = `usuarios`.`id_usuario`
+LEFT JOIN `mascotas` ON `temporal`.`id_mascota` = `mascotas`.`id_mascota`
+WHERE `temporal`.`activo` = :temporal.activo:', [...], false)
+ 2 APPPATH\Controllers\Admin.php(563): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->certificadosPendientes()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-09 10:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-09 10:57:57 --> mysqli_sql_exception: Unknown column 'numero_solicitud' in 'field list' in C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ce...', 0)
+#1 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ce...')
+#2 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ce...')
+#3 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ce...', Array, false)
+#4 C:\wamp64\www\empadronamiento\app\Controllers\Admin.php(619): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\Admin->aprobarCertificado('28', '1', '14', '21114', 'omar.ch0896@gma...', 'SOL-20250709-00...', 'CAHO-TAYSONPMN2...')
+#6 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\empadronamiento\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-07-09 10:57:57 --> Unknown column 'numero_solicitud' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `certificados` (`id_mascota`, `id_usuario`, `numero_solicitud`, `curp_mascota`, `folio`) VALUES (:id_mascota:, :id_usuario:, :numero_solicitud:, :curp_mascota:, :folio:)', [...], false)
+ 2 APPPATH\Controllers\Admin.php(619): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->aprobarCertificado('28', '1', '14', '21114', 'omar.ch0896@gmail.com', 'SOL-20250709-00028', 'CAHO-TAYSONPMN280725')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-09 10:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 10:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-09 11:18:30 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin.php on line 981.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->generarCertificado('8')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-09 11:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-09 11:18:43 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin.php on line 1168.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->generarCredencial('8')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-09 11:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 11:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 12:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 12:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 12:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 12:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 12:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 12:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 12:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 12:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 12:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 12:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-09 12:31:13 --> Undefined property: stdClass::$curp_masctoa
+in APPPATH\Controllers\Admin.php on line 1102.
+ 1 APPPATH\Controllers\Admin.php(1102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$curp_masctoa', 'C:\\wamp64\\www\\empadronamiento\\app\\Controllers\\Admin.php', 1102)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->generarAcuse('8')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-09 12:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 12:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 12:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 12:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 12:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 12:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 12:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 12:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 12:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 12:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-09 12:45:47 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin.php on line 1169.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->generarCredencial('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-09 12:45:47 --> [DEPRECATED] utf8_decode(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Admin.php on line 1206.
+ 1 APPPATH\Controllers\Admin.php(1206): utf8_decode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->generarCredencial('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-09 12:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 12:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 12:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-09 12:45:52 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin.php on line 1169.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->generarCredencial('8')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-07-09 14:54:35 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(74): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(54): CodeIgniter\Test\FeatureTestCase->loadDependencies()
+#4 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\CIUnitTestCase.php(250): CodeIgniter\Test\FeatureTestCase->setUpDatabase()
+#5 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(1216): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestResult.php(729): PHPUnit\Framework\TestCase->runBare()
+#7 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(973): PHPUnit\Framework\TestResult->run(Object(HomeTest))
+#8 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(146): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(99): PHPUnit\TextUI\Command->run(Array, true)
+#14 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\phpunit(107): PHPUnit\TextUI\Command::main()
+#15 C:\wamp64\www\empadronamiento\vendor\bin\phpunit(122): include('C:\\wamp64\\www\\e...')
+#16 {main}
+ERROR - 2025-07-09 14:54:35 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(74): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(54): CodeIgniter\Test\FeatureTestCase->loadDependencies()
+#4 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\CIUnitTestCase.php(250): CodeIgniter\Test\FeatureTestCase->setUpDatabase()
+#5 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(1216): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestResult.php(729): PHPUnit\Framework\TestCase->runBare()
+#7 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(973): PHPUnit\Framework\TestResult->run(Object(LoginTest))
+#8 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(146): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(99): PHPUnit\TextUI\Command->run(Array, true)
+#14 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\phpunit(107): PHPUnit\TextUI\Command::main()
+#15 C:\wamp64\www\empadronamiento\vendor\bin\phpunit(122): include('C:\\wamp64\\www\\e...')
+#16 {main}
+ERROR - 2025-07-09 14:54:35 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(74): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(54): CodeIgniter\Test\FeatureTestCase->loadDependencies()
+#4 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\CIUnitTestCase.php(250): CodeIgniter\Test\FeatureTestCase->setUpDatabase()
+#5 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(1216): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestResult.php(729): PHPUnit\Framework\TestCase->runBare()
+#7 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(973): PHPUnit\Framework\TestResult->run(Object(LoginTest))
+#8 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(146): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(99): PHPUnit\TextUI\Command->run(Array, true)
+#14 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\phpunit(107): PHPUnit\TextUI\Command::main()
+#15 C:\wamp64\www\empadronamiento\vendor\bin\phpunit(122): include('C:\\wamp64\\www\\e...')
+#16 {main}
+ERROR - 2025-07-09 14:54:45 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(74): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(54): CodeIgniter\Test\FeatureTestCase->loadDependencies()
+#4 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\CIUnitTestCase.php(250): CodeIgniter\Test\FeatureTestCase->setUpDatabase()
+#5 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(1216): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestResult.php(729): PHPUnit\Framework\TestCase->runBare()
+#7 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(973): PHPUnit\Framework\TestResult->run(Object(HomeTest))
+#8 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(146): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(99): PHPUnit\TextUI\Command->run(Array, true)
+#14 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\phpunit(107): PHPUnit\TextUI\Command::main()
+#15 C:\wamp64\www\empadronamiento\vendor\bin\phpunit(122): include('C:\\wamp64\\www\\e...')
+#16 {main}
+ERROR - 2025-07-09 14:54:45 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(74): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(54): CodeIgniter\Test\FeatureTestCase->loadDependencies()
+#4 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\CIUnitTestCase.php(250): CodeIgniter\Test\FeatureTestCase->setUpDatabase()
+#5 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(1216): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestResult.php(729): PHPUnit\Framework\TestCase->runBare()
+#7 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(973): PHPUnit\Framework\TestResult->run(Object(LoginTest))
+#8 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(146): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(99): PHPUnit\TextUI\Command->run(Array, true)
+#14 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\phpunit(107): PHPUnit\TextUI\Command::main()
+#15 C:\wamp64\www\empadronamiento\vendor\bin\phpunit(122): include('C:\\wamp64\\www\\e...')
+#16 {main}
+ERROR - 2025-07-09 14:54:45 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(74): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(54): CodeIgniter\Test\FeatureTestCase->loadDependencies()
+#4 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\CIUnitTestCase.php(250): CodeIgniter\Test\FeatureTestCase->setUpDatabase()
+#5 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(1216): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestResult.php(729): PHPUnit\Framework\TestCase->runBare()
+#7 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(973): PHPUnit\Framework\TestResult->run(Object(LoginTest))
+#8 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(146): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(99): PHPUnit\TextUI\Command->run(Array, true)
+#14 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\phpunit(107): PHPUnit\TextUI\Command::main()
+#15 C:\wamp64\www\empadronamiento\vendor\bin\phpunit(122): include('C:\\wamp64\\www\\e...')
+#16 {main}
+ERROR - 2025-07-09 14:55:10 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(74): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(54): CodeIgniter\Test\FeatureTestCase->loadDependencies()
+#4 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\CIUnitTestCase.php(250): CodeIgniter\Test\FeatureTestCase->setUpDatabase()
+#5 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(1216): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestResult.php(729): PHPUnit\Framework\TestCase->runBare()
+#7 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(973): PHPUnit\Framework\TestResult->run(Object(HomeTest))
+#8 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(146): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(99): PHPUnit\TextUI\Command->run(Array, true)
+#14 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\phpunit(107): PHPUnit\TextUI\Command::main()
+#15 C:\wamp64\www\empadronamiento\vendor\bin\phpunit(122): include('C:\\wamp64\\www\\e...')
+#16 {main}
+ERROR - 2025-07-09 14:55:10 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(74): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(54): CodeIgniter\Test\FeatureTestCase->loadDependencies()
+#4 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\CIUnitTestCase.php(250): CodeIgniter\Test\FeatureTestCase->setUpDatabase()
+#5 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(1216): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestResult.php(729): PHPUnit\Framework\TestCase->runBare()
+#7 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(973): PHPUnit\Framework\TestResult->run(Object(LoginTest))
+#8 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(146): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(99): PHPUnit\TextUI\Command->run(Array, true)
+#14 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\phpunit(107): PHPUnit\TextUI\Command::main()
+#15 C:\wamp64\www\empadronamiento\vendor\bin\phpunit(122): include('C:\\wamp64\\www\\e...')
+#16 {main}
+ERROR - 2025-07-09 14:55:10 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(74): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(54): CodeIgniter\Test\FeatureTestCase->loadDependencies()
+#4 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\CIUnitTestCase.php(250): CodeIgniter\Test\FeatureTestCase->setUpDatabase()
+#5 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(1216): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestResult.php(729): PHPUnit\Framework\TestCase->runBare()
+#7 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(973): PHPUnit\Framework\TestResult->run(Object(LoginTest))
+#8 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(146): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(99): PHPUnit\TextUI\Command->run(Array, true)
+#14 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\phpunit(107): PHPUnit\TextUI\Command::main()
+#15 C:\wamp64\www\empadronamiento\vendor\bin\phpunit(122): include('C:\\wamp64\\www\\e...')
+#16 {main}
+ERROR - 2025-07-09 14:57:37 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(74): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(54): CodeIgniter\Test\FeatureTestCase->loadDependencies()
+#4 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\CIUnitTestCase.php(250): CodeIgniter\Test\FeatureTestCase->setUpDatabase()
+#5 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(1216): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestResult.php(729): PHPUnit\Framework\TestCase->runBare()
+#7 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(973): PHPUnit\Framework\TestResult->run(Object(HomeTest))
+#8 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(146): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(99): PHPUnit\TextUI\Command->run(Array, true)
+#14 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\phpunit(107): PHPUnit\TextUI\Command::main()
+#15 C:\wamp64\www\empadronamiento\vendor\bin\phpunit(122): include('C:\\wamp64\\www\\e...')
+#16 {main}
+ERROR - 2025-07-09 14:57:37 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(74): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(54): CodeIgniter\Test\FeatureTestCase->loadDependencies()
+#4 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\CIUnitTestCase.php(250): CodeIgniter\Test\FeatureTestCase->setUpDatabase()
+#5 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(1216): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestResult.php(729): PHPUnit\Framework\TestCase->runBare()
+#7 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(973): PHPUnit\Framework\TestResult->run(Object(LoginTest))
+#8 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(146): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(99): PHPUnit\TextUI\Command->run(Array, true)
+#14 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\phpunit(107): PHPUnit\TextUI\Command::main()
+#15 C:\wamp64\www\empadronamiento\vendor\bin\phpunit(122): include('C:\\wamp64\\www\\e...')
+#16 {main}
+ERROR - 2025-07-09 14:57:37 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(74): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(54): CodeIgniter\Test\FeatureTestCase->loadDependencies()
+#4 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\CIUnitTestCase.php(250): CodeIgniter\Test\FeatureTestCase->setUpDatabase()
+#5 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(1216): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestResult.php(729): PHPUnit\Framework\TestCase->runBare()
+#7 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(973): PHPUnit\Framework\TestResult->run(Object(LoginTest))
+#8 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(146): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(99): PHPUnit\TextUI\Command->run(Array, true)
+#14 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\phpunit(107): PHPUnit\TextUI\Command::main()
+#15 C:\wamp64\www\empadronamiento\vendor\bin\phpunit(122): include('C:\\wamp64\\www\\e...')
+#16 {main}
+ERROR - 2025-07-09 15:02:35 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(74): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(54): CodeIgniter\Test\FeatureTestCase->loadDependencies()
+#4 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\CIUnitTestCase.php(250): CodeIgniter\Test\FeatureTestCase->setUpDatabase()
+#5 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(1216): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestResult.php(729): PHPUnit\Framework\TestCase->runBare()
+#7 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(973): PHPUnit\Framework\TestResult->run(Object(HomeTest))
+#8 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(146): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(99): PHPUnit\TextUI\Command->run(Array, true)
+#14 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\phpunit(107): PHPUnit\TextUI\Command::main()
+#15 C:\wamp64\www\empadronamiento\vendor\bin\phpunit(122): include('C:\\wamp64\\www\\e...')
+#16 {main}
+ERROR - 2025-07-09 15:02:35 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(74): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(54): CodeIgniter\Test\FeatureTestCase->loadDependencies()
+#4 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\CIUnitTestCase.php(250): CodeIgniter\Test\FeatureTestCase->setUpDatabase()
+#5 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(1216): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestResult.php(729): PHPUnit\Framework\TestCase->runBare()
+#7 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(973): PHPUnit\Framework\TestResult->run(Object(LoginTest))
+#8 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(146): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(99): PHPUnit\TextUI\Command->run(Array, true)
+#14 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\phpunit(107): PHPUnit\TextUI\Command::main()
+#15 C:\wamp64\www\empadronamiento\vendor\bin\phpunit(122): include('C:\\wamp64\\www\\e...')
+#16 {main}
+ERROR - 2025-07-09 15:02:35 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(74): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(54): CodeIgniter\Test\FeatureTestCase->loadDependencies()
+#4 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\CIUnitTestCase.php(250): CodeIgniter\Test\FeatureTestCase->setUpDatabase()
+#5 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(1216): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestResult.php(729): PHPUnit\Framework\TestCase->runBare()
+#7 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(973): PHPUnit\Framework\TestResult->run(Object(LoginTest))
+#8 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(146): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(99): PHPUnit\TextUI\Command->run(Array, true)
+#14 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\phpunit(107): PHPUnit\TextUI\Command::main()
+#15 C:\wamp64\www\empadronamiento\vendor\bin\phpunit(122): include('C:\\wamp64\\www\\e...')
+#16 {main}
+ERROR - 2025-07-09 15:02:50 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(74): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(54): CodeIgniter\Test\FeatureTestCase->loadDependencies()
+#4 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\CIUnitTestCase.php(250): CodeIgniter\Test\FeatureTestCase->setUpDatabase()
+#5 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(1216): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestResult.php(729): PHPUnit\Framework\TestCase->runBare()
+#7 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(973): PHPUnit\Framework\TestResult->run(Object(HomeTest))
+#8 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(146): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(99): PHPUnit\TextUI\Command->run(Array, true)
+#14 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\phpunit(107): PHPUnit\TextUI\Command::main()
+#15 C:\wamp64\www\empadronamiento\vendor\bin\phpunit(122): include('C:\\wamp64\\www\\e...')
+#16 {main}
+ERROR - 2025-07-09 15:02:50 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(74): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(54): CodeIgniter\Test\FeatureTestCase->loadDependencies()
+#4 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\CIUnitTestCase.php(250): CodeIgniter\Test\FeatureTestCase->setUpDatabase()
+#5 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(1216): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestResult.php(729): PHPUnit\Framework\TestCase->runBare()
+#7 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(973): PHPUnit\Framework\TestResult->run(Object(LoginTest))
+#8 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(146): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(99): PHPUnit\TextUI\Command->run(Array, true)
+#14 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\phpunit(107): PHPUnit\TextUI\Command::main()
+#15 C:\wamp64\www\empadronamiento\vendor\bin\phpunit(122): include('C:\\wamp64\\www\\e...')
+#16 {main}
+ERROR - 2025-07-09 15:02:50 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(74): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\DatabaseTestTrait.php(54): CodeIgniter\Test\FeatureTestCase->loadDependencies()
+#4 C:\wamp64\www\empadronamiento\vendor\codeigniter4\framework\system\Test\CIUnitTestCase.php(250): CodeIgniter\Test\FeatureTestCase->setUpDatabase()
+#5 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(1216): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestResult.php(729): PHPUnit\Framework\TestCase->runBare()
+#7 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestCase.php(973): PHPUnit\Framework\TestResult->run(Object(LoginTest))
+#8 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\Framework\TestSuite.php(685): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(146): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\src\TextUI\Command.php(99): PHPUnit\TextUI\Command->run(Array, true)
+#14 C:\wamp64\www\empadronamiento\vendor\phpunit\phpunit\phpunit(107): PHPUnit\TextUI\Command::main()
+#15 C:\wamp64\www\empadronamiento\vendor\bin\phpunit(122): include('C:\\wamp64\\www\\e...')
+#16 {main}
+INFO - 2025-07-09 16:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-09 16:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

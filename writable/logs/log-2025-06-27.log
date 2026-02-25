@@ -1,0 +1,324 @@
+INFO - 2025-06-27 11:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-27 11:48:16 --> Invalid file: "admin/verAcuse.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/verAcuse.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/verAcuse', [], true)
+ 3 APPPATH\Controllers\Admin.php(733): view('admin/verAcuse', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->verAcuse('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 11:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-27 11:48:59 --> Undefined variable $id_mascota
+in APPPATH\Views\admin\verAcuse.php on line 7.
+ 1 APPPATH\Views\admin\verAcuse.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_mascota', 'C:\\wamp64\\www\\empadronamiento\\app\\Views\\admin\\verAcuse.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64\\www\\empadronamiento\\app\\Views\\admin\\verAcuse.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/verAcuse', [], true)
+ 5 APPPATH\Controllers\Admin.php(733): view('admin/verAcuse', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->verAcuse('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 11:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-27 11:50:45 --> Undefined variable $id_mascota
+in APPPATH\Views\admin\verAcuse.php on line 7.
+ 1 APPPATH\Views\admin\verAcuse.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_mascota', 'C:\\wamp64\\www\\empadronamiento\\app\\Views\\admin\\verAcuse.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64\\www\\empadronamiento\\app\\Views\\admin\\verAcuse.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/verAcuse', [], true)
+ 5 APPPATH\Controllers\Admin.php(1034): view('admin/verAcuse', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->verAcuse('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 11:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-27 11:52:02 --> Undefined variable $id_mascota
+in APPPATH\Views\admin\verAcuse.php on line 7.
+ 1 APPPATH\Views\admin\verAcuse.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_mascota', 'C:\\wamp64\\www\\empadronamiento\\app\\Views\\admin\\verAcuse.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64\\www\\empadronamiento\\app\\Views\\admin\\verAcuse.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/verAcuse', [], true)
+ 5 APPPATH\Controllers\Admin.php(1034): view('admin/verAcuse', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->verAcuse('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 11:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-27 11:52:04 --> Undefined variable $id_mascota
+in APPPATH\Views\admin\verAcuse.php on line 7.
+ 1 APPPATH\Views\admin\verAcuse.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_mascota', 'C:\\wamp64\\www\\empadronamiento\\app\\Views\\admin\\verAcuse.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64\\www\\empadronamiento\\app\\Views\\admin\\verAcuse.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/verAcuse', [], true)
+ 5 APPPATH\Controllers\Admin.php(1034): view('admin/verAcuse', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->verAcuse('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 11:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-27 11:52:53 --> Undefined property: stdClass::$curp
+in APPPATH\Controllers\Usuario.php on line 620.
+ 1 APPPATH\Controllers\Usuario.php(620): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$curp', 'C:\\wamp64\\www\\empadronamiento\\app\\Controllers\\Usuario.php', 620)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 11:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-27 11:53:30 --> Undefined variable $id_mascota
+in APPPATH\Views\admin\verAcuse.php on line 7.
+ 1 APPPATH\Views\admin\verAcuse.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_mascota', 'C:\\wamp64\\www\\empadronamiento\\app\\Views\\admin\\verAcuse.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64\\www\\empadronamiento\\app\\Views\\admin\\verAcuse.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/verAcuse', [], true)
+ 5 APPPATH\Controllers\Admin.php(1034): view('admin/verAcuse', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->verAcuse('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 11:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-27 11:56:42 --> Class "App\Controllers\Time" not found
+in APPPATH\Controllers\Admin.php on line 1069.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->generarAcuse('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 11:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 11:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-27 11:59:39 --> Undefined property: stdClass::$curp
+in APPPATH\Controllers\Usuario.php on line 620.
+ 1 APPPATH\Controllers\Usuario.php(620): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$curp', 'C:\\wamp64\\www\\empadronamiento\\app\\Controllers\\Usuario.php', 620)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 12:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-27 12:04:04 --> Undefined property: stdClass::$curp
+in APPPATH\Controllers\Usuario.php on line 620.
+ 1 APPPATH\Controllers\Usuario.php(620): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$curp', 'C:\\wamp64\\www\\empadronamiento\\app\\Controllers\\Usuario.php', 620)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 12:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-27 12:05:04 --> Undefined property: stdClass::$curp
+in APPPATH\Controllers\Usuario.php on line 620.
+ 1 APPPATH\Controllers\Usuario.php(620): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$curp', 'C:\\wamp64\\www\\empadronamiento\\app\\Controllers\\Usuario.php', 620)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 12:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-27 12:05:08 --> Undefined property: stdClass::$curp
+in APPPATH\Controllers\Usuario.php on line 620.
+ 1 APPPATH\Controllers\Usuario.php(620): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$curp', 'C:\\wamp64\\www\\empadronamiento\\app\\Controllers\\Usuario.php', 620)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 12:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-27 12:06:28 --> Undefined property: stdClass::$curp
+in APPPATH\Controllers\Usuario.php on line 620.
+ 1 APPPATH\Controllers\Usuario.php(620): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$curp', 'C:\\wamp64\\www\\empadronamiento\\app\\Controllers\\Usuario.php', 620)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 12:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-27 12:06:45 --> Undefined property: stdClass::$curp
+in APPPATH\Controllers\Usuario.php on line 620.
+ 1 APPPATH\Controllers\Usuario.php(620): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$curp', 'C:\\wamp64\\www\\empadronamiento\\app\\Controllers\\Usuario.php', 620)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 12:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-27 12:07:18 --> Undefined property: stdClass::$curp
+in APPPATH\Controllers\Usuario.php on line 620.
+ 1 APPPATH\Controllers\Usuario.php(620): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$curp', 'C:\\wamp64\\www\\empadronamiento\\app\\Controllers\\Usuario.php', 620)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 12:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-27 12:07:27 --> Undefined property: stdClass::$curp
+in APPPATH\Controllers\Usuario.php on line 620.
+ 1 APPPATH\Controllers\Usuario.php(620): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$curp', 'C:\\wamp64\\www\\empadronamiento\\app\\Controllers\\Usuario.php', 620)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 12:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-27 12:11:23 --> Undefined property: stdClass::$curp
+in APPPATH\Controllers\Usuario.php on line 620.
+ 1 APPPATH\Controllers\Usuario.php(620): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$curp', 'C:\\wamp64\\www\\empadronamiento\\app\\Controllers\\Usuario.php', 620)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->generarPDF('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 12:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-27 12:11:55 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin.php on line 961.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->generarCertificado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 12:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-27 12:21:17 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin.php on line 1172.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->generarCredencial('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 12:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-27 12:22:16 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin.php on line 1172.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->generarCredencial('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 12:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 12:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-27 12:22:28 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin.php on line 1172.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->generarCredencial('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 15:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 15:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 15:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 15:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 15:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 15:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 15:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 15:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 15:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 15:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-27 15:39:54 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin.php on line 1172.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->generarCredencial('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 15:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 15:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-27 15:41:36 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin.php on line 1172.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->generarCredencial('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-27 15:43:36 --> Maximum execution time of 120 seconds exceeded
+in VENDORPATH\setasign\fpdf\fpdf.php on line 1267.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-06-27 15:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 15:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-27 15:43:37 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin.php on line 1172.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->generarCredencial('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 15:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 15:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-27 15:51:03 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin.php on line 1172.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->generarCredencial('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 16:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 16:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-27 16:09:29 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin.php on line 1172.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->generarCredencial('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 16:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 16:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-27 16:17:50 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin.php on line 1172.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->generarCredencial('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 16:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 16:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-27 16:17:52 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin.php on line 1172.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->generarCredencial('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 16:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 16:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-27 16:17:54 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin.php on line 1172.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->generarCredencial('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-27 18:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 18:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 18:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 18:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 18:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 18:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 18:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 18:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 18:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 18:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 18:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-27 18:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-27 18:32:52 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin.php on line 1172.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->generarCredencial('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
