@@ -188,7 +188,7 @@ writable/*
 # Composer
 ############################
 
-composer.lock
+# composer.lock
 
 ############################
 # IDE
