@@ -1,0 +1,1 @@
+{"version":1,"defects":{"HomeTest::testHomePageLoads":3,"LoginTest::testLoginPageLoads":3,"LoginTest::testLoginWithInvalidCredentials":4},"times":{"HomeTest::testHomePageLoads":0.075,"LoginTest::testLoginPageLoads":0.025,"LoginTest::testLoginWithInvalidCredentials":0.029}}

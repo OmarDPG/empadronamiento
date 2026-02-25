@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/codeigniter4/framework/system/Test/bootstrap.php"
+         colors="true"
+         verbose="true"
+         processIsolation="false">
+    <testsuites>
+        <testsuite name="Feature Tests">
+            <directory>tests/Feature</directory>
+        </testsuite>
+    </testsuites>
+
+    <php>
+        <env name="CI_ENVIRONMENT" value="testing"/>
+        <env name="app.baseURL" value="http://localhost/"/>
+    </php>
+</phpunit>
