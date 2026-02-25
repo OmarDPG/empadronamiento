@@ -133,8 +133,8 @@
 
 # # Configuración sensible
 # .env
-# app/Config/Database.php
-# app/Config/Email.php
+app/Config/Database.php
+app/Config/Email.php
 
 # # Writable
 writable/*
